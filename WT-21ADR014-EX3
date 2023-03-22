@@ -1,0 +1,163 @@
+# WT-21ADR014-ex3
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IIC Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+  <style>
+    .bg-primary{
+      background-color: #3F51B5;
+    }
+    .btn-primary{
+      background-color: #3F51B5;
+    }
+    .bg-img {
+      background-image: url("/IIC\ 1.png");
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;}
+  </style>
+</head>
+<body class="bg-img">
+  <div class="container" style="margin-top:100px;">
+    <div class="row justify-content-center ">
+      <div class="col-md-8" style="margin: 90px;">
+        <div class="card" style="box-shadow: 7px 10px #3F51B5;">
+          <div class="card-header bg-primary text-white">
+            <h3 style="color: rgb(221, 218, 33);"><b> IIC Login </b></h3>
+          </div>
+          <div class="card-body" style="background-color: lightblue;">
+            <form action="/WTEX 3 Sec.html">
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+              </div>
+              <div class="row justify-content-center">
+              <button type="submit" class="btn btn-primary">Submit</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+//----//
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEC IIC Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<style>
+    .navbar{
+        background-color: #e05935;
+    }
+    .bg-img {
+        background-image: url("/IIC\ 2.png");
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+    .text{
+        color: black;
+    }    
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">KEC IIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./activity.html">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./test.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-img" style="color:rgb(242, 29, 29);">
+        <div class="container d-inline-block" style="padding:90px; margin-top:130px;">
+            <h1 class="display-6"><b>Welcome to KEC IIC</b></h1>
+            <p class="lead"><b>Help students turn their innovative ideas into successful businesses.</b></p>
+            <a class="btn btn-lg btn-dark" href="./activity.html" role="button">Learn More</a>
+        </div>
+    </div>
+    <div class="container d-inline ">
+        <div class="row">
+            <div class="col-md-6 d-inline ml-lg-5">
+                <h2>About Us</h2>
+                <p>We are a team of passionate entrepreneurs who believe that innovation is the key to success in
+                    today's fast-paced business world. Our mission is to empower students to turn their ideas into
+                    reality by providing them with the resources, tools, and guidance they need to succeed.</p>
+                <a class="btn btn-primary" href="#" role="button">Learn More</a>
+            </div>
+            <div class="col-md-6 d-inline ml-lg-5">
+                <br>
+                <h2>Our Services</h2>
+                <div class="row flex-lg-nowrap">
+                    <div class="col-sm-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Business Incubation</h5>
+                                <p class="card-text">We provide startups with office space, legal and financial advice,
+                                    and access to investors to help them grow and succeed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 d-inline ml-lg-1">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Startup Mentoring</h5>
+                                <p class="card-text">Our experienced mentors provide one-on-one coaching and guidance to
+                                    help startups develop and execute their business plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Access to Funding</h5>
+                                <p class="card-text">We help startups access funding opportunities by connecting them
+                                    with potential investors and providing advice on pitching and fundraising.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-primary text-white text-center py-3 fixed-bottom">
+        <b>KEC IIC Activity Management</b>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
